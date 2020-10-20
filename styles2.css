@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+    background-image: linear-gradient(to right, #99ccff, #ff99cc);
+  background-repeat: no-repeat;
+ background-size:1800px 1000px;
+ text-align:
+}
+
+h1{
+  color: white;
+}
+
+::placeholder{
+  color:black;
+}
+
+.login1{
+  position: absolute;
+ left: 110px;
+ top: 110px;
+}
+
+
+
+.login input[type="text"], .login input[type="email"]  {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.8s;
+}
+
+.login input[type="text"]:focus, .login input[type="password"]:focus {
+  width: 280px;
+  border-color: black;
+box-shadow: 0 0 13px magenta;
+}
+
+.login input[type="email"]:focus, .login input[type="password"]:focus {
+  width: 280px;
+  border-color: black;
+  box-shadow: 0 0 13px magenta;
+}
+
+.form-control:focus{
+  width: 280px;
+  border-color: black;
+  box-shadow: 0 0 13px magenta;
+}
+
+.login input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 15px 20px 10px;
+  outline: none;
+  color: #2ecc71;
+  border-radius: 20px;
+  transition: 0.8s;
+}
+
+.form-control {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.8s;
+}
+
+.btn{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 14px 40px;
+  outline: none;
+  color:  black;
+  border-radius: 24px;
+  transition: 0.8s;
+}
+
+.btn:hover {
+  background: #2ecc71;
+  color: #27496d;
+  border: none;
+  box-shadow: 0 0 13px #52de97;
+}
+
+ul{
+
+  top: 50%;
+  left:50%;
+  right: 50;
+
+  margin: 70px 0 0 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li{
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 10px;
+  margin: 0 40px;
+  background: rgba(255,255,255,.2);
+  border-radius: 50%;
+  color: #000635;
+  transition: 1s;
+}
+
+ul li:hover
+{
+  background: #fff;
+  box-shadow: 0 0 10px rgba(255, 225, 225, 1),
+              0 0 20px rgba(255, 225, 225, 1),
+              0 0 30px rgba(255, 225, 225, 1),
+              0 0 40px rgba(255, 225, 225, 1);
+}
+
+.socialmedia{
+  margin-left: 80px;
+}
+
+.LinkedIn{
+  height: 30px;
+  width: 30px;
+}
+
+.instagram{
+  height: 30px;
+  width: 30px;
+}
+
+.twitter{
+
+  height: 30px;
+  width: 30px;
+}
+
+.MikoChoupy{
+  margin: 450px 0 10px 940px;
+  font-size: 10px;
+
+}
